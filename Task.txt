@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements Demo</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header, section, footer{
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        img{
+            border-radius: 10px;
+        }
+
+        a{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>HTML5 Basic Web Page</h1>
+        <p>
+            This page demonstrates various 
+            <b>HTML5 elements</b> such as 
+            <i>text formatting</i>, lists, links, multimedia, 
+            and embedded content.
+        </p>
+    </header>
+
+    <!-- Text Formatting -->
+    <section>
+        <h2>Text Formatting Tags</h2>
+
+        <p><b>Bold Text</b></p>
+        <p><i>Italic Text</i></p>
+        <p><u>Underlined Text</u></p>
+        <p><mark>Highlighted Text</mark></p>
+        <p><small>Small Text</small></p>
+        <p>H<sub>2</sub>O and x<sup>2</sup></p>
+    </section>
+
+    <!-- Ordered and Unordered Lists -->
+    <section>
+        <h2>Lists in HTML</h2>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Computer</li>
+            <li>Keyboard</li>
+            <li>Mouse</li>
+        </ul>
+    </section>
+
+    <!-- Description List -->
+    <section>
+        <h2>Description List</h2>
+
+        <dl>
+            <dt><b>HTML</b></dt>
+            <dd>HyperText Markup Language</dd>
+
+            <dt><b>CSS</b></dt>
+            <dd>Cascading Style Sheets</dd>
+
+            <dt><b>JavaScript</b></dt>
+            <dd>Programming language for web pages</dd>
+        </dl>
+    </section>
+
+    <!-- Hyperlinks -->
+    <section>
+        <h2>Hyperlinks</h2>
+
+        <!-- External Link -->
+        <p>
+            External Link:
+            <a href="https://www.google.com" target="_blank">
+                Visit Google
+            </a>
+        </p>
+
+        <!-- Internal Link -->
+        <p>
+            Internal Link:
+            <a href="#media">Go to Multimedia Section</a>
+        </p>
+
+        <!-- Image Link -->
+        <p>Image Link:</p>
+
+        <a href="https://www.wikipedia.org" target="_blank">
+            <img src="https://via.placeholder.com/200"
+                 alt="Sample Image"
+                 width="200">
+        </a>
+    </section>
+
+    <!-- Multimedia -->
+    <section id="media">
+        <h2>Multimedia</h2>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="sample.mp3" type="audio/mp3">
+            Your browser does not support audio.
+        </audio>
+
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+    <!-- Embedded Code -->
+    <section>
+        <h2>Embedded Content</h2>
+
+        <iframe width="400" height="250"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            title="YouTube video">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 HTML5 Demo Page</p>
+    </footer>
+
+</body>
+</html>
